@@ -58,7 +58,6 @@ int main() {
 			consume_char_const();
 		} else {
 			if(c == '/') {
-				puts("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OOO~~~~~~~~~~~~~~~");
 				n = getchar();
 				if(n == '*') {
 					consume_comment();
